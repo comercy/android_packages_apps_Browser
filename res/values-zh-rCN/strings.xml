@@ -30,7 +30,7 @@
     <string name="added_to_bookmarks" msgid="1020224130695956728">"已添加到书签"</string>
     <string name="removed_from_bookmarks" msgid="6063705902028438800">"从书签中删除"</string>
     <string name="sign_in_to" msgid="5939425800148759165">"登录 <xliff:g id="HOSTNAME">%s1</xliff:g>“<xliff:g id="REALM">%s2</xliff:g>”"</string>
-    <string name="username" msgid="5057566336518215922">"姓名"</string>
+    <string name="username" msgid="5057566336518215922">"用户名"</string>
     <string name="password" msgid="1177138552305184404">"密码"</string>
     <string name="action" msgid="183105774472071343">"登录"</string>
     <string name="bookmarks_search" msgid="5229596268214362873">"浏览器"</string>
@@ -71,8 +71,8 @@
     <string name="forward" msgid="4288210890526641577">"前进"</string>
     <string name="save" msgid="5922311934992468496">"确定"</string>
     <string name="do_not_save" msgid="6777633870113477714">"取消"</string>
-    <string name="location" msgid="969988560160364559">"地点"</string>
-    <string name="name" msgid="5990326151488445481">"姓名"</string>
+    <string name="location" msgid="969988560160364559">"网址"</string>
+    <string name="name" msgid="5990326151488445481">"书签名"</string>
     <string name="http" msgid="2163722670597250102">"http://"</string>
     <string name="save_to_bookmarks" msgid="588165100024086565">"添加书签"</string>
     <string name="edit_bookmark" msgid="5024089053490231905">"编辑书签"</string>
@@ -86,7 +86,7 @@
     <string name="bookmark_not_saved" msgid="700600955089376724">"无法保存书签。"</string>
     <string name="homepage_set" msgid="8768087280310966395">"主页已设置。"</string>
     <string name="bookmark_needs_title" msgid="6245900436119218187">"书签必须具有名称。"</string>
-    <string name="bookmark_needs_url" msgid="7809876865972755158">"书签必须具有位置。"</string>
+    <string name="bookmark_needs_url" msgid="7809876865972755158">"书签必须具有地址。"</string>
     <string name="bookmark_url_not_valid" msgid="6719785633980202419">"网址无效。"</string>
     <string name="bookmark_cannot_save_url" msgid="791722768778386941">"无法将此网址添加到书签。"</string>
     <string name="delete_bookmark" msgid="2422989994934201992">"删除"</string>
@@ -186,9 +186,9 @@
     <string name="pref_text_size_dialogtitle" msgid="3625388833512647865">"文字大小"</string>
     <string name="pref_default_zoom" msgid="8076142259097187395">"默认缩放设置"</string>
   <string-array name="pref_default_zoom_choices">
-    <item msgid="549583171195154919">"远"</item>
+    <item msgid="549583171195154919">"小"</item>
     <item msgid="5619034257768161024">"中"</item>
-    <item msgid="3840999588443167001">"近"</item>
+    <item msgid="3840999588443167001">"大"</item>
   </string-array>
     <string name="pref_default_zoom_dialogtitle" msgid="6095974367125109021">"默认缩放设置"</string>
     <string name="pref_content_load_page" msgid="2219810141690955452">"以概览模式打开网页"</string>
@@ -302,8 +302,8 @@
     
     <string name="pref_show_zoom_controls">显示缩放按钮</string>
     <string name="pref_full_screen_mode">全屏</string>
-    <string name="pref_user_agent_title">用户代理</string>
-    <string name="pref_user_agent_dialog">选择用户代理</string>
+    <string name="pref_user_agent_title">用户界面</string>
+    <string name="pref_user_agent_dialog">选择用户界面</string>
     
     <string-array name="pref_user_agent">
      <item>Android</item>
